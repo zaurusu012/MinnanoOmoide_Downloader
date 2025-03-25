@@ -10,8 +10,8 @@ ID = os.getenv("LOGIN_ID")
 PASS = os.getenv("LOGIN_PASS")
 
 url_login = "https://ps.happysmile-inc.jp/sys/UserLogin"
-url_room = "https://ps.happysmile-inc.jp/sys/UserRoom/index/271336"
-text_album = "ぱんだ(157)"
+url_room = "https://ps.happysmile-inc.jp/sys/UserRoom/index/xxxxxx" #展示室のurlに書き換える 
+text_album = "たんぽぽ組遠足(57)" #アルバム名に書き換える。括弧は(写真数)
 
 def main():
     # ブラウザのドライバーを得る
